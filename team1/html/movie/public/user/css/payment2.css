@@ -1,0 +1,117 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* 여기서 시작 */
+
+.info2 {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  /* margin: 60px 0 0 200px; */
+}
+
+.image2 {
+  width: 300px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+.info-wrapper2 {
+  width: fit-content;
+}
+
+.box:nth-child2(3) {
+  border: none;
+}
+
+img {
+  margin-right: 30px;
+}
+
+.info-title2 {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.info-explain2 {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.result2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* margin: 50px 100px 20px 0; */
+}
+
+.total2 {
+  margin-right: 10px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.total-amount2 {
+  margin-right: 10px;
+  color: black;
+}
+
+.amount2 {
+  color: #f36e00;
+}
+
+.select-seat2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #3e3e3e;
+  cursor: pointer;
+}
+
+.combo-container2 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.combo2 {
+  margin: 10px;
+}
+
+.combo-info2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+.details2 {
+  margin-top: 5px;
+  font-size: 12px;
+  color: rgb(200, 200, 200);
+}
+
+.price2 {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}

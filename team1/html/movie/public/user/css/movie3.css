@@ -1,0 +1,82 @@
+.screening-list {
+  position: relative;
+  padding-right: 50px;
+}
+
+.box {
+  overflow: auto;
+  -ms-overflow-style: none;
+  display: flex;
+  margin-bottom: 40px;
+  border: none;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  color: black;
+}
+
+#movie-img {
+  margin-bottom: 20px;
+}
+
+.rank {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  bottom: 100px;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(33, 165, 247);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 115px;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn-info {
+  margin-right: 10px;
+  border: 1px solid black;
+  background-color: inherit;
+}
+
+.btn-ticketing {
+  border: none;
+  background-color: #f9880a;
+}
+
+.reservation-rate {
+  margin-right: 8px;
+}

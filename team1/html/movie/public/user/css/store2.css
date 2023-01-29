@@ -1,0 +1,52 @@
+.store-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.store-active {
+  padding: 20px;
+}
+
+.combo-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+.combo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 50px; */
+}
+
+.combo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.details {
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgb(200, 200, 200);
+}
+
+.price {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
